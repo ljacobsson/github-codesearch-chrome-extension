@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "GitHub CodeSearch Extensions",
+  "name": "GitHub CodeSearch Extension",
   "version": "0.1.0",
-  "description": "Chrome extension lets you make select text on any webpage and search for it in GitHub CodeSearch",
+  "description": "Chrome extension that lets you select text from any website and search for it in GitHub CodeSearch",
   "icons": {
     "16": "icons/icon_16.png",
     "32": "icons/icon_32.png",
@@ -13,7 +13,7 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "GitHub CodeSearch Extensions"
+    "default_title": "GitHub CodeSearch Extension"
   },
   "permissions": [
     "storage", 
