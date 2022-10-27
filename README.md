@@ -1,10 +1,10 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> GitHub CodeSearch Extensions
 
-Chrome extension lets you make select text and search for it in [GitHub CodeSearch](https://github.com/features/code-search/signup).
+Chrome extension that lets you select text and search for it in [GitHub CodeSearch](https://github.com/features/code-search/signup).
 
-If you want to include shortcuts to your own choice of GitHub organisations, add them to the `GITHUB_REPOS` array at the top of src/background.js:
+If you want to make narrow searches to your own choice of GitHub organisations, add them to the `GITHUB_REPOS` array at the top of src/background.js:
 ```
-const MY_GITHUB_ORGS = [ "myorg", "aws-samples" ];
+const MY_GITHUB_ORGS = [ "myorg", "my-other-org" ];
 ```
 
 
@@ -16,7 +16,7 @@ Simply right click and select `Search GitHub for {my selection}`
 
 ## Install
 
-This has not yet been published. To install:
+To install:
 
 * Clone the repo, run `npm install && npm run build` 
 * In your browser, go to chrome://extensions
