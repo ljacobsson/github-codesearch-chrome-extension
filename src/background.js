@@ -1,6 +1,6 @@
 'use strict';
 
-const MY_GITHUB_ORGS = ["mathem-se", "mhlabs"];
+const MY_GITHUB_ORGS = [/* Add your GitHub orgs here */];
 
 chrome.contextMenus.create({
   contexts: ["all"],
