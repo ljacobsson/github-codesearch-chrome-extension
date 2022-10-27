@@ -1,7 +1,7 @@
 {
   "name": "insights-snippets-extension",
   "version": "0.1.0",
-  "description": "Chrome extension lets you make select text on any webpage and search for it in GitHub CodeSearch",
+  "description": "Chrome extension that lets you select text from any website and search for it in GitHub CodeSearch",
   "author": "ljacobsson",
   "private": true,
   "scripts": {
